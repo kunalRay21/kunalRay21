@@ -2,7 +2,7 @@
 
 i write backends. mostly postgres, queues, and apis that actually hold up.
 
-not really a "look at my clean code" person — more of a "this thing works at 3am and i'm going to sleep" person.
+not really a "look at my clean code" person but more of a "this thing works at 3am and i'm going to sleep" person.
 
 ---
 
