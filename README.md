@@ -8,38 +8,67 @@ not really a "look at my clean code" person but more of a "this thing works at 3
 
 ## what i'm actually building right now
 
-### [Bruhm](https://github.com/kunalRay21/Bruhm) — active / wip
-started as a janky auth service, turned into a whole thing. job queues, token rotation, multi-container docker setup — the works.  
-stack: `express` · `prisma` · `bullmq` · `redis` · `postgres` · `pino` · `jwt` · `docker`
+### [Bruhm](https://github.com/kunalRay21/Bruhm) — *active / wip*
+> **Active backend-centric scheduling & automation utility**
+
+| Tech Stack | Key Focus Areas |
+| :--- | :--- |
+| `Express` · `Prisma` · `BullMQ` · `Redis` · `Postgres` · `Docker` | Asymmetric task processing, token rotation, and multi-container setups. |
+
+*   Started as a janky auth service and evolved into a full job coordination queue engine.
+*   Implements secure session controls with JWT rotation and structured Pino HTTP logging.
 
 ---
 
 ## other stuff i've worked on
 
-### [Arizona](https://github.com/kunalRay21/arizona) — backend statistical cycle research
-a backend api that models cycle variations using gaussian distributions and confidence scoring. math-heavy. fun to build.  
-stack: `node.js` · `express` · `prisma` · `postgres` · `jwt`  
-*(plan: exploring python for statistical modelling and data processing to potentially integrate into the prediction engine)*
+### [Arizona](https://github.com/kunalRay21/arizona) — *backend statistical cycle research*
+> **Statistical biological monitoring API**
 
-### Odoo Cafe POS — shipped in 36 hours
-hackathon build. crazy night. designed the database schema and relations, helped wire up the billing terminal frontend. team of four, one weekend, zero sleep.  
-stack: `next.js` · `prisma` · `postgres`
+| Tech Stack | Key Focus Areas |
+| :--- | :--- |
+| `Node.js` · `Express` · `Prisma` · `Postgres` · `JWT` | Cycle variation modelling using normal (Gaussian) distributions. |
 
-### PartsBigBoss — full-stack learning playground
-built for the fun of learning web development to its core. i implemented a lot of complex features — including payment gateway integrations, search engine indices, database filters, and frontend api debouncing middleware. since it fully served its learning purpose, it remains an experimental codebase.  
-stack: `next.js` · `express` · `meilisearch` · `razorpay` · `python`
+*   Builds predicted start-date windows based on standard deviation and historical data inputs.
+*   Calculates user data-completeness scores and applies backfilling penalties.
+*   *Future plan:* Exploring Python for data processing and modeling to integrate a more sophisticated engine.
+
+---
+
+### Odoo Cafe POS — *shipped in 36 hours*
+> **Collaborative hackathon point of sale & kitchen display system**
+
+| Tech Stack | Key Focus Areas |
+| :--- | :--- |
+| `Next.js` · `Prisma` · `PostgreSQL` | Designing database schemas, relations, and billing terminal structures under tight time constraints. |
+
+*   Built over a single weekend with a team of four.
+*   Wired up the transaction routing and database connections with zero sleep.
+
+---
+
+### PartsBigBoss — *full-stack learning playground*
+> **Automotive e-commerce catalog exploration**
+
+| Tech Stack | Key Focus Areas |
+| :--- | :--- |
+| `Next.js` · `Express` · `Meilisearch` · `Razorpay` · `Python` | Implementing payment integrations, search indexes, filters, and debouncing. |
+
+*   Created purely to learn modern web development.
+*   Incorporated custom Python scripts to parse and clean legacy parts lists for postgres database ingestion.
+*   Left as a completed learning codebase once educational milestones were met.
 
 ---
 
 ## tools i actually use
 
-```
-languages      js (es6+) · typescript · sql · python
-backend        node.js · express.js
-databases      postgresql · prisma orm · redis · mysql
-frontend       next.js · react · tailwind · zustand · framer motion
-tooling        docker · git · vite · bullmq
-```
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | `JavaScript (ES6+)` · `TypeScript` · `SQL` · `Python` |
+| **Backend** | `Node.js` · `Express.js` · `BullMQ` |
+| **Databases** | `PostgreSQL` · `Prisma ORM` · `Redis` · `MySQL` · `PHP` (legacy) |
+| **Frontend** | `Next.js` · `React` · `Tailwind CSS` · `Zustand` · `Framer Motion` |
+| **DevOps & Tools** | `Docker` · `Git` · `Vite` |
 
 ---
 
